@@ -14,9 +14,9 @@ app = FastAPI()
 # header
 # body 
 
-# @app.get('/simple')
-# def simple():
-#     return "Hello!!!"
+@app.get('/simple')
+def simple():
+    return "Hello!!!"
 
 # @app.get('/test')
 # def test(name: str):
